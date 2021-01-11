@@ -1,0 +1,32 @@
+{
+  "name": "assignment-7-chandanasrigandham",
+  "version": "1.0.0",
+  "description": "The goal of this assignment is to learn about JavaScript",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "rxjs": "6.4.*"
+  },
+  "type": "module",
+  "devDependencies": {
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass scss/main.scss --output dist",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-fall-2020/assignment-7-ChandanaSriGandham.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-ChandanaSriGandham/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-fall-2020/assignment-7-ChandanaSriGandham#readme"
+}

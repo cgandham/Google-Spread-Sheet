@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/5.4.0/Rx.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="/dist/main.css" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <section class="title">
+      <img src="../images/sheetLogo.png" alt="sheets" class="logo"/>
+      <h1 class="title__text--name">Simple Spreadsheet</h1>
+    </section>
+    <section class="spreadsheet">
+      <table class="spreadsheet__table" id="table-main">
+        <thead class="spreadsheet__table--headers" id="table-headers"> </thead>
+        <tbody class="spreadsheet__table--body" id="table-body"> </tbody>
+      </table>
+    </section>
+    <section id="sheetControls" class="spreadsheet-controls">
+      <button class="reset-btn" id="addRow">Add Row</button>
+      <button class="reset-btn" id="addCol">Add Column</button>
+      <button class="reset-btn" id="deleteRow">Delete Row</button>
+      <button class="reset-btn" id="deleteCol">Delete Col</button>
+      <input type="button" class="reset-btn" id="exportTableToCSV" value="Export Sheet">
+      <input type="file" id="fileUpload"/>
+      <input type="button" id="upload" value="Load CSV"  class="reset-btn"/>
+      <!-- <button class="reset-btn" id="loadFromCSV">Load Sheet</button> -->
+
+      <input type="text" id ="trial"/>
+    </section>
+ 
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.3/rxjs.umd.min.js"></script>
+
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.6.3/rxjs.umd.min.js"></script>
+<script src="/js/spreadSheet.js"> </script>
+
+
+</html>
